@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Computer Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Computer Quiz!</h1>
+        <p>Test your knowledge and see if you can win a special prize!</p>
+        <div id="celebration" class="hidden">🎉 Awesome! 🎉</div> 
+        <div id="quiz-container">
+            <div id="question"></div>
+            <div id="answers"></div>
+            <button id="next-button" class="hidden">Next Question</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2 id="result-message"></h2>
+            <p id="gift-message"></p>
+            <button id="restart-button">Play Again</button>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
